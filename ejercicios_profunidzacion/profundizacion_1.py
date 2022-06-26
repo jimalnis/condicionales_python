@@ -22,3 +22,14 @@ si el resultado es positivo, negativo o cero.
 
 print('Ejercicios de práctica con números')
 # Empezar aquí la resolución del ejercicio
+numero_1= float(input("Ingrese el primer número:   "))
+numero_2= float(input ("Ingrese el segundo  número:   "))
+resultado= numero_1 - numero_2
+#print ("El resultado de la operacion es {}". format (resultado))
+if resultado > 0:
+    print ("El resultado de la operacion es positivo")
+elif resultado < 0:
+    print ("El resultado de la operacion es negativo")
+else:
+    print ("El reultado de la operacion es 0")
+       
